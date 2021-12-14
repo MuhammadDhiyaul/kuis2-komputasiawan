@@ -32,8 +32,8 @@ jobs:
 
       - name: 'Build and push'
         run: |
-          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/hello-react .
-          docker push ${{ secrets.DOCKERHUB_USERNAME}}/hello-react
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/kuis2-komputasiawan .
+          docker push ${{ secrets.DOCKERHUB_USERNAME}}/kuis2-komputasiawan
 
       - name: 'Write config'
         run: |
